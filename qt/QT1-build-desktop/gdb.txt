@@ -1,0 +1,9 @@
+warning: (Internal error: pc 0x12d422 in read in psymtab, but not in symtab.)
+
+warning: (Internal error: pc 0x12d422 in read in psymtab, but not in symtab.)
+
+warning: (Internal error: pc 0x12d422 in read in psymtab, but not in symtab.)
+
+$1 = (const QString::Null *) 0xecb864
+warning: (Internal error: pc 0x12d422 in read in psymtab, but not in symtab.)
+

@@ -1,0 +1,3 @@
+
+SOURCES += \
+    Lable.cpp

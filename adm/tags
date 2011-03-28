@@ -1,0 +1,95 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AR	Makefile	/^AR            = ar cqs$/;"	m
+CC	Makefile	/^CC            = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS        = -pipe -g -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+CHK_DIR_EXISTS	Makefile	/^CHK_DIR_EXISTS= test -d$/;"	m
+COMPRESS	Makefile	/^COMPRESS      = gzip -9f$/;"	m
+COPY	Makefile	/^COPY          = cp -f$/;"	m
+COPY_DIR	Makefile	/^COPY_DIR      = $(COPY) -r$/;"	m
+COPY_FILE	Makefile	/^COPY_FILE     = $(COPY)$/;"	m
+CXX	Makefile	/^CXX           = g++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS      = -pipe -g -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+DEFINES	Makefile	/^DEFINES       = -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED$/;"	m
+DEL_DIR	Makefile	/^DEL_DIR       = rmdir$/;"	m
+DEL_FILE	Makefile	/^DEL_FILE      = rm -f$/;"	m
+DESTDIR	Makefile	/^DESTDIR       = $/;"	m
+DIST	Makefile	/^DIST          = ..\/..\/qtsdk-2011.03\/qt\/mkspecs\/common\/g++.conf \\$/;"	m
+Form	ui_mydialog.h	/^    class Form: public Ui_Form{};$/;"	c	namespace:Ui
+INCPATH	Makefile	/^INCPATH       = -I..\/..\/qtsdk-2011.03\/qt\/mkspecs\/linux-g++ -I. -I..\/..\/qtsdk-2011.03\/qt\/include\/QtCore -I..\/..\/qtsdk-2011.03\/qt\/include\/QtGui -I..\/..\/qtsdk-2011.03\/qt\/include -I. -I.$/;"	m
+INSTALL_DIR	Makefile	/^INSTALL_DIR   = $(COPY_DIR)$/;"	m
+INSTALL_FILE	Makefile	/^INSTALL_FILE  = install -m 644 -p$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = install -m 755 -p$/;"	m
+LFLAGS	Makefile	/^LFLAGS        = -Wl,-rpath,\/home\/navyzhou\/qtsdk-2011.03\/qt\/lib$/;"	m
+LIBS	Makefile	/^LIBS          = $(SUBLIBS)  -L\/home\/navyzhou\/qtsdk-2011.03\/qt\/lib -lQtGui -L\/home\/navyzhou\/qtsdk-2011.03\/qt\/lib -L\/usr\/X11R6\/lib -lQtCore -lpthread $/;"	m
+LINK	Makefile	/^LINK          = g++$/;"	m
+LTR	mydialog.h	/^enum direction{LTR, RTL};$/;"	e	enum:direction
+MKDIR	Makefile	/^MKDIR         = mkdir -p$/;"	m
+MOVE	Makefile	/^MOVE          = mv -f$/;"	m
+MYDIALOG_H	mydialog.h	2;"	d
+MyDialog	mydialog.cpp	/^MyDialog::MyDialog(QWidget *parent)$/;"	f	class:MyDialog
+MyDialog	mydialog.h	/^class MyDialog:public QDialog, public Ui_Form $/;"	c
+OBJECTS	Makefile	/^OBJECTS       = main.o \\$/;"	m
+OBJECTS_DIR	Makefile	/^OBJECTS_DIR   = .\/$/;"	m
+QMAKE	Makefile	/^QMAKE         = \/usr\/bin\/qmake$/;"	m
+QMAKE_TARGET	Makefile	/^QMAKE_TARGET  = adm$/;"	m
+RANLIB	Makefile	/^RANLIB        = $/;"	m
+RTL	mydialog.h	/^enum direction{LTR, RTL};$/;"	e	enum:direction
+SED	Makefile	/^SED           = sed$/;"	m
+SER_IP	mydialog.cpp	15;"	d	file:
+SOURCES	Makefile	/^SOURCES       = main.cpp \\$/;"	m
+STRIP	Makefile	/^STRIP         = strip$/;"	m
+SYMLINK	Makefile	/^SYMLINK       = ln -f -s$/;"	m
+TAR	Makefile	/^TAR           = tar -cf$/;"	m
+TARGET	Makefile	/^TARGET        = adm$/;"	m
+UI_MYDIALOG_H	ui_mydialog.h	2;"	d
+Ui	ui_mydialog.h	/^namespace Ui$/;"	n
+Ui_Form	ui_mydialog.h	/^class Ui_Form$/;"	c
+anotherstr	mydialog.h	/^        QString anotherstr;$/;"	m	class:MyDialog
+background	mydialog.h	/^        QLabel *background;$/;"	m	class:MyDialog
+buf	mydialog.h	/^        QString buf;$/;"	m	class:MyDialog
+changeContent	mydialog.h	/^        void changeContent(const QString &str){contentstr = str;}$/;"	f	class:MyDialog
+contentstr	mydialog.h	/^        QString contentstr;$/;"	m	class:MyDialog
+direction	mydialog.h	/^enum direction{LTR, RTL};$/;"	g
+dirvalue	mydialog.h	/^        direction dirvalue;$/;"	m	class:MyDialog
+enter	mydialog.cpp	/^void MyDialog::enter()$/;"	f	class:MyDialog
+error	mydialog.cpp	/^void MyDialog::error()$/;"	f	class:MyDialog
+getDiretion	mydialog.h	/^        direction getDiretion(){return dirvalue;}$/;"	f	class:MyDialog
+getStaticMetaObject	moc_mydialog.cpp	/^const QMetaObject &MyDialog::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:MyDialog
+imageLabel	mydialog.h	/^        QLabel *imageLabel;$/;"	m	class:MyDialog
+juge	mydialog.h	/^        int juge;$/;"	m	class:MyDialog
+lcd	mydialog.h	/^        QLCDNumber *lcd;$/;"	m	class:MyDialog
+lineEdit	ui_mydialog.h	/^    QLineEdit *lineEdit;$/;"	m	class:Ui_Form
+main	main.cpp	/^int main(int argc, char *argv[])$/;"	f
+metaObject	moc_mydialog.cpp	/^const QMetaObject *MyDialog::metaObject() const$/;"	f	class:MyDialog
+msgBuffer	mydialog.h	/^        QString msgBuffer;$/;"	m	class:MyDialog
+paintEvent	mydialog.cpp	/^void MyDialog::paintEvent(QPaintEvent *event)$/;"	f	class:MyDialog
+paint_pos	mydialog.cpp	/^int paint_pos;$/;"	v
+paint_txt_len	mydialog.cpp	/^int paint_txt_len;$/;"	v
+picPath	mydialog.h	/^        QString *picPath[50];$/;"	m	class:MyDialog
+pic_no	mydialog.cpp	/^int pic_no = 0;$/;"	v
+pic_num	mydialog.cpp	/^int pic_num = 0;$/;"	v
+pushButton	ui_mydialog.h	/^    QPushButton *pushButton;$/;"	m	class:Ui_Form
+qt_meta_data_MyDialog	moc_mydialog.cpp	/^static const uint qt_meta_data_MyDialog[] = {$/;"	v	file:
+qt_meta_stringdata_MyDialog	moc_mydialog.cpp	/^static const char qt_meta_stringdata_MyDialog[] = {$/;"	v	file:
+qt_metacall	moc_mydialog.cpp	/^int MyDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:MyDialog
+qt_metacast	moc_mydialog.cpp	/^void *MyDialog::qt_metacast(const char *_clname)$/;"	f	class:MyDialog
+recvMsg	mydialog.cpp	/^void MyDialog::recvMsg()$/;"	f	class:MyDialog
+resizeEvent	mydialog.cpp	/^void MyDialog::resizeEvent(QResizeEvent *event)$/;"	f	class:MyDialog
+retranslateUi	ui_mydialog.h	/^    void retranslateUi(QWidget *Form)$/;"	f	class:Ui_Form
+sendMsg	mydialog.cpp	/^void MyDialog::sendMsg()$/;"	f	class:MyDialog
+sendMsgTime	mydialog.cpp	/^void MyDialog::sendMsgTime()$/;"	f	class:MyDialog
+setDirection	mydialog.h	/^        void setDirection(direction d){dirvalue = d;}$/;"	f	class:MyDialog
+setupUi	ui_mydialog.h	/^    void setupUi(QWidget *Form)$/;"	f	class:Ui_Form
+showPicture	mydialog.cpp	/^void MyDialog::showPicture()$/;"	f	class:MyDialog
+showTime	mydialog.cpp	/^void MyDialog::showTime()$/;"	f	class:MyDialog
+staticMetaObject	moc_mydialog.cpp	/^const QMetaObject MyDialog::staticMetaObject = {$/;"	m	class:MyDialog	file:
+textBrowser	ui_mydialog.h	/^    QTextBrowser *textBrowser;$/;"	m	class:Ui_Form
+time	mydialog.h	/^        QTime time;$/;"	m	class:MyDialog
+timeoutslot	mydialog.cpp	/^void MyDialog::timeoutslot()$/;"	f	class:MyDialog
+txtB	mydialog.h	/^        QTextBrowser *txtB;$/;"	m	class:MyDialog
+ymdlcd	mydialog.h	/^        QLCDNumber *ymdlcd;$/;"	m	class:MyDialog

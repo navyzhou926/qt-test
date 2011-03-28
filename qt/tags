@@ -1,0 +1,78 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+List	1homework.cpp	/^		List()$/;"	f	class:List
+List	1homework.cpp	/^class List$/;"	c	file:
+List	homework.cpp	/^		List()$/;"	f	class:List
+List	homework.cpp	/^class List$/;"	c	file:
+MyString	1homework.cpp	/^		MyString()$/;"	f	class:MyString
+MyString	1homework.cpp	/^		MyString(MyString& r)$/;"	f	class:MyString
+MyString	1homework.cpp	/^		MyString(char* p)$/;"	f	class:MyString
+MyString	1homework.cpp	/^class MyString$/;"	c	file:
+MyString	homework.cpp	/^		MyString()$/;"	f	class:MyString
+MyString	homework.cpp	/^		MyString(MyString& r)$/;"	f	class:MyString
+MyString	homework.cpp	/^		MyString(char* p)$/;"	f	class:MyString
+MyString	homework.cpp	/^class MyString$/;"	c	file:
+Node	1homework.cpp	/^class Node$/;"	c	file:
+Node	homework.cpp	/^class Node$/;"	c	file:
+Person	1homework.cpp	/^class Person$/;"	c	file:
+Person	homework.cpp	/^class Person$/;"	c	file:
+Persons	1homework.cpp	/^class Persons$/;"	c	file:
+Persons	homework.cpp	/^class Persons$/;"	c	file:
+Split	1homework.cpp	/^		List<MyString> Split(char ch)$/;"	f	class:MyString
+Split	homework.cpp	/^		List<MyString> Split(char ch)$/;"	f	class:MyString
+Student	1homework.cpp	/^class Student: public Person$/;"	c	file:
+Student	homework.cpp	/^class Student: public Person$/;"	c	file:
+Teacher	1homework.cpp	/^class Teacher : public Person$/;"	c	file:
+Teacher	homework.cpp	/^class Teacher : public Person$/;"	c	file:
+age	1homework.cpp	/^		int age;$/;"	m	class:Person	file:
+age	homework.cpp	/^		int age;$/;"	m	class:Person	file:
+data	1homework.cpp	/^		T data;$/;"	m	class:Node	file:
+data	1homework.cpp	/^		char* data;$/;"	m	class:MyString	file:
+data	homework.cpp	/^		T data;$/;"	m	class:Node	file:
+data	homework.cpp	/^		char* data;$/;"	m	class:MyString	file:
+getHead	1homework.cpp	/^		Node<T>* getHead()$/;"	f	class:List
+getHead	homework.cpp	/^		Node<T>* getHead()$/;"	f	class:List
+getNext	1homework.cpp	/^		Node<T>* getNext(Node<T>* p)$/;"	f	class:List
+getNext	homework.cpp	/^		Node<T>* getNext(Node<T> *p)$/;"	f	class:List
+head	1homework.cpp	/^		Node<T>* head;$/;"	m	class:List	file:
+head	homework.cpp	/^		Node<T>* head;$/;"	m	class:List	file:
+init	1homework.cpp	/^		void init(char* file)$/;"	f	class:Persons
+init	homework.cpp	/^		void init(char* file)$/;"	f	class:Persons
+insertHead	1homework.cpp	/^		void insertHead(T data)$/;"	f	class:List
+insertHead	homework.cpp	/^		void insertHead(T data)$/;"	f	class:List
+isEmpty	1homework.cpp	/^		bool isEmpty()$/;"	f	class:List
+isEmpty	homework.cpp	/^		bool isEmpty()$/;"	f	class:List
+len	1homework.cpp	/^		int len;$/;"	m	class:MyString	file:
+len	homework.cpp	/^		int len;$/;"	m	class:MyString	file:
+main	1homework.cpp	/^int main()$/;"	f
+main	homework.cpp	/^int main()$/;"	f
+name	1homework.cpp	/^		MyString name;$/;"	m	class:Person	file:
+name	homework.cpp	/^		MyString name;$/;"	m	class:Person	file:
+next	1homework.cpp	/^		Node<T>* next;$/;"	m	class:Node	file:
+next	homework.cpp	/^		Node<T>* next;$/;"	m	class:Node	file:
+operator =	1homework.cpp	/^		MyString& operator=(MyString& r)$/;"	f	class:MyString
+operator =	1homework.cpp	/^		MyString& operator=(char* p)$/;"	f	class:MyString
+operator =	homework.cpp	/^		MyString& operator=(MyString& r)$/;"	f	class:MyString
+operator =	homework.cpp	/^		MyString& operator=(char* p)$/;"	f	class:MyString
+persons	1homework.cpp	/^		List<Person*> persons;$/;"	m	class:Persons	file:
+persons	homework.cpp	/^		List<Person*> persons;$/;"	m	class:Persons	file:
+print	1homework.cpp	/^		void print()$/;"	f	class:Persons
+print	1homework.cpp	/^		void print()$/;"	f	class:Student
+print	1homework.cpp	/^		void print()$/;"	f	class:Teacher
+print	homework.cpp	/^		void print()$/;"	f	class:Persons
+print	homework.cpp	/^		void print()$/;"	f	class:Student
+print	homework.cpp	/^		void print()$/;"	f	class:Teacher
+removeHead	1homework.cpp	/^		Node<T>* removeHead()$/;"	f	class:List
+removeHead	homework.cpp	/^		Node<T>* removeHead()$/;"	f	class:List
+score	1homework.cpp	/^		int score;$/;"	m	class:Student	file:
+score	homework.cpp	/^		int score;$/;"	m	class:Student	file:
+tel	1homework.cpp	/^		MyString tel;$/;"	m	class:Person	file:
+tel	homework.cpp	/^		MyString tel;$/;"	m	class:Person	file:
+type	1homework.cpp	/^		MyString type;$/;"	m	class:Person	file:
+type	homework.cpp	/^		MyString type;$/;"	m	class:Person	file:
+~List	1homework.cpp	/^		~List()$/;"	f	class:List
+~List	homework.cpp	/^		~List()$/;"	f	class:List
